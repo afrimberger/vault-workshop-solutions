@@ -1,3 +1,7 @@
 path "/secret/data/*" {
-  capabilities = [ "read", "create", "update", "delete", "list" ]
+  capabilities = [ "create", "read", "update", "delete", "list" ]
+}
+
+path "/secret/metadata/*" {
+  capabilities = [ "create", "read", "update", "delete", "list" ]
 }
